@@ -2,10 +2,10 @@
 #include <Adafruit_NeoPixel.h>
 
 // Seeed XIAO ESP32-C3 pin mapping:
-//   D2 = GPIO4, D3 = GPIO5, D10 = GPIO10
-#define TRIG_PIN  D3   // Ultrasonic trigger → GPIO5
-#define ECHO_PIN  D2   // Ultrasonic echo   → GPIO4
-#define NEO_PIN   D10  // NeoPixel data     → GPIO10
+//   D2 = GPIO4, D3 = GPIO5, D5 = GPIO10
+#define TRIG_PIN  D2   // Ultrasonic trigger → GPIO5
+#define ECHO_PIN  D3  // Ultrasonic echo   → GPIO4
+#define NEO_PIN   D5  // NeoPixel data     → GPIO10
 #define NUM_LEDS  5
 
 Adafruit_NeoPixel strip(NUM_LEDS, NEO_PIN, NEO_GRB + NEO_KHZ800);
