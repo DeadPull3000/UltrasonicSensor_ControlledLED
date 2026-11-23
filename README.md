@@ -1,3 +1,10 @@
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./project-scan.gif">
+  <img src="./project-static.png" width="1056" alt="Ultrasonic Proximity LEDs ASCII project diagram">
+</picture>
+
+The firmware measures an echo pulse and uses the resulting distance to control the LED display.
+
 # Proximity LED Display — Seeed XIAO ESP32-C3
 
 A PlatformIO project that reads distance from an HC-SR04 ultrasonic sensor and lights a 5-LED NeoPixel strip to show how close an object is. The colour changes from green → yellow → red as the object gets farther away.
